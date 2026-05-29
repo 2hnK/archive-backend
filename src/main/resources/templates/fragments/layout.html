@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<body>
+<header th:fragment="header">
+    <nav>
+        <a th:href="@{/}">DevArchive</a>
+        <a th:href="@{/articles}">Articles</a>
+        <a th:href="@{/projects}">Projects</a>
+    </nav>
+</header>
+
+<footer th:fragment="footer">
+    <small>DEVARCHIVE</small>
+</footer>
+</body>
+</html>
