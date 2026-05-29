@@ -1,4 +1,7 @@
 package hello.archivebackend.domain.project.repository;
 
-public interface ProjectRepository {
+import hello.archivebackend.domain.project.entity.Project;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ProjectRepository extends JpaRepository<Project, Long> {
 }
